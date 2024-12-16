@@ -19,9 +19,9 @@ export function addToCart() {
                             <span id="quant-${p.id}" class="m-2 fw-bold">${p.quantity}</span>
                             <button type="button" class="btn btn-success" id="btnSum-${p.id}">+</button>
                             <h6 class="m-2">Total: $<span id="totalPrice-${p.id}">${p.price * p.quantity}</span></h6>
-                              <button type="button" class="btn btn-outline-danger" id="btnDelete-${p.id}">
+                            <button type="button" class="btn btn-outline-danger" id="btnDelete-${p.id}">
                               <i class="bi bi-trash"></i>
-                              </button>
+                            </button>
                         </div>
                     </div>
                 </div>
